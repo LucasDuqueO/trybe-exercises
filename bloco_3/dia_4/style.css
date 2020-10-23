@@ -3,6 +3,11 @@ body {
     color: darkblue;
 }
 
+main {
+    border: 1px solid black;
+    padding: 5px;
+}
+
 header {
     border: 1px groove red;
 }
@@ -16,14 +21,22 @@ img {
     width: 200px;
 }
 
+span {
+    font-weight: 600;
+}
+
+table th {
+    border: 1px solid black;
+}
+
+table td {
+    border: 1px solid black;
+}
+
 .titulos {
     font-family: fantasy, sans-serif;
     margin-left: 10px;
     text-decoration: underline;
-}
-
-span {
-    font-weight: 600;
 }
 
 .italic {
@@ -35,14 +48,6 @@ span {
     display: inline-block;
     margin: 10px;
     
-}
-
-table th {
-    border: 1px solid black;
-}
-
-table td {
-    border: 1px solid black;
 }
 
 .imagem {
@@ -78,7 +83,3 @@ table td {
     display: inline-block;
 }
 
-main {
-    border: 1px solid black;
-    padding: 5px;
-}
